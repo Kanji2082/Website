@@ -1,5 +1,7 @@
 body{
-    color:#26d6d6
+    color:crimson;
+    background-color: #edd8ff;
+    font-family:Cambria, Cochin, Georgia, Times, 
 }
 
 h1{
@@ -11,9 +13,13 @@ h1{
 }
 
 p{
-    color:#481e62
+    color:#d1990d;
 }
 
 li{
-    color:crimson
+    color:#2bc8c8
+}
+
+a{
+    color:#2bc8c8
 }
