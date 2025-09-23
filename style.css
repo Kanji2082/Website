@@ -1,0 +1,19 @@
+body{
+    color:#26d6d6
+}
+
+h1{
+    color:darkviolet;
+    text-align:center;
+    text-decoration:underline;
+    font-weight:bold;
+    font-style:italic;
+}
+
+p{
+    color:#481e62
+}
+
+li{
+    color:crimson
+}
