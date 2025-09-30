@@ -3,32 +3,43 @@
     <head>
         <meta charset="UTF-8" />
         <title>Finn's Game Review Website</title>
-        <link rel="icon" type="image/png" href="images/Ivysaur.png"/>
+        <link rel="icon" type="image/png" href="images/Pokeball.png" />
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <h1>Welcome to my game review website!</h1>
-        <p><a href="spiderman2.html">Click here to go to my review on Marvel Spider-Man 2</a></p>
-        <p><a href="elden-ring.html">Click here to go to my review on Elden Ring</a></p>
-        <p><a href="resident-evil4.html">Click here to go to my review on Resident Evil 4</a></p>
-        <p><a href="red-dead-redemption2.html">Click here to go to my review on Red Dead Redemption 2</a></p>
-        <p>This is where i will <strong>reviews games</strong> that i have played!</p>
-        <p>I will talk about the narratives, character and map designs, and game features!</p>
-        <img src="images/small-cat-dancing-bed-cute-animal-meme-itidlpqndjnvmhfr.gif">
-        <p>Have you ever played any of these games:</p>
-        <form>
-            <input type="radio" id="yes" name="playedgame" value="yes">
-            <label for="yes">Yes</label><br>
-            <input type="radio" id="someofthem" name="playedgame" value="someofthem">
-            <label for="someofthem">Some of them</label><br>
-            <input type="radio" id="no" name="playedgame" value="no">
-            <label for="no">No</label>
-        </form> 
-        <br>
-        <form>
-            <label for="email">Enter your E-mail to get sent updates:</label>
-            <input type="text" id="email"/>
-            <input type="submit" value="Submit"/>
-        </form>
+        <div class="centred-content">
+            <div class="Banner">
+                <h1>My Webpage</h1>
+            </div>
+            <h1>Welcome to my game review website!</h1>
+            <p>
+                <a href="spiderman2.html">Marvel Spider-Man 2</a> | <a href="elden-ring.html">Elden Ring</a> |
+                <a href="resident-evil4.html">Resident Evil 4</a> |
+                <a href="red-dead-redemption2.html">Red Dead Redemption 2</a>
+            </p>
+            <p>This is where i will <strong>reviews games</strong> that i have played!</p>
+            <p>I will talk about the narratives, character and map designs, and game features!</p>
+            <img src="images/small-cat-dancing-bed-cute-animal-meme-itidlpqndjnvmhfr.gif" />
+            <p>Have you ever played any of these games:</p>
+            <form>
+                <input type="radio" id="yes" name="playedgame" value="yes" />
+                <label for="yes">Yes</label><br />
+                <input type="radio" id="someofthem" name="playedgame" value="someofthem" />
+                <label for="someofthem">Some of them</label><br />
+                <input type="radio" id="no" name="playedgame" value="no" />
+                <label for="no">No</label>
+            </form>
+            <br />
+            <form>
+                <label for="email">Enter your E-mail to get sent updates:</label>
+                <input type="text" id="email" />
+                <input type="submit" value="Submit" />
+            </form>
+            <div class="profile-card">
+                <img class="avatar" src="images/avatar3.png" alt="Avatar" />
+                <h2 class="name">Finn Provan</h2>
+                <p class="bio">Student game designer. Loves pixel art and video games.</p>
+            </div>
+        </div>
     </body>
 </html>
