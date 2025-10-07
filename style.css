@@ -1,11 +1,14 @@
 body{
-    color:crimson;
+    color:#ffffff;
     background-image:url(images/background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     font-family:Cambria, Cochin, Georgia, Times, 
 }
 
 h1{
-    color:darkviolet;
+    color:#dac3ff;
     text-align:center;
     text-decoration:underline;
     font-weight:bold;
@@ -13,26 +16,26 @@ h1{
 }
 
 h2{
-    color:darkviolet;
+    color:#fad87b;
     text-align:center;
     font-weight:bold;
     font-style:italic;
 }
 
 p{
-    color:#d1990d;
+    color:#ffffff;
 }
 
 li{
-    color:#2bc8c8
+    color:aqua;
 }
 
 a{
-    color:#2bc8c8
+    color:#ffbb00
 }
 
 .Banner {
-    background-image:url(images/banner1.png);
+    background-color:black;
     border-radius:25px;
 }
 
@@ -42,7 +45,7 @@ a{
     margin: 12px;
     border: 2px solid #444;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: #923b41;
     box-shadow: 0 4px 8px rgba(0,0,0,0.80);
     box-sizing: border-box;
 }
@@ -58,8 +61,50 @@ a{
 .centred-content {
     max-width: 800px;
     height: 100%;
-    background-color: #edd8ff;
+    background-image: url(images/kokuhaori.jpg);
     margin-left: auto;
     margin-right: auto;
     padding: 50px
+}
+
+.navbar {
+    text-align: center;
+    width: 100%;
+}
+/* stuff that doesnt change */
+.navbutton {
+    background-color: #6e1627;
+    border: 2px dashed #444;
+    
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    vertical-align:middle;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* default - mobile/phone */
+.navbutton {
+    width: 100%;
+    margin: -2px;
+}
+
+/* tablet and up */
+@media (min-width: 830px) {
+    .navbutton {
+        display: inline-block;
+        width: 25%;
+        margin: -4px;
+
+    }
+}
+    
+/* large desktop */
+@media (min-width: 1200px) {
+    .navbutton {
+        display: inline-block;
+        width: 150px;
+        margin: 10px;
+    }
 }
